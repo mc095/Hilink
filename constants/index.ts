@@ -1,11 +1,11 @@
 // NAVIGATION
 export const NAV_LINKS = [
   { href: '/', key: 'home', label: 'Home' },
-  { href: '/', key: 'how_hilink_work', label: 'How Hilink Work?' },
-  { href: '/', key: 'services', label: 'Services' },
-  { href: '/', key: 'pricing ', label: 'Pricing ' },
-  { href: '/', key: 'contact_us', label: 'Contact Us' },
+  { href: 'https://huggingface.co/spaces/Ganesh89/AC_Optimizer', key: 'services', label: 'Optimizer' },
+  { href: 'https://huggingface.co/spaces/Ganesh89/turigo', key: 'turigo', label: 'Talk to turigo' },
+  { href: 'https://huggingface.co/spaces/Ganesh89/TravelBook', key: 'travel', label: 'Services' },
 ];
+
 
 // CAMP SECTION
 export const PEOPLE_URL = [
@@ -18,32 +18,32 @@ export const PEOPLE_URL = [
 // FEATURES SECTION
 export const FEATURES = [
   {
-    title: 'Real maps can be offline',
+    title: 'Basic Route Optimization',
     icon: '/map.svg',
     variant: 'green',
     description:
-      'We provide a solution for you to be able to use our application when climbing, yes offline maps you can use at any time there is no signal at the location',
+      'Maximize your travel time by planning efficient routes. Our system calculates the best paths based on distances between attractions and their opening hours, ensuring you spend more time exploring and less time traveling.📍🕒',
   },
   {
-    title: 'Set an adventure schedule',
+    title: 'Simple Crowd Consideration',
     icon: '/calendar.svg',
     variant: 'green',
     description:
-      "Schedule an adventure with friends. On holidays, there are many interesting offers from Hilink. That way, there's no more discussion",
+      "Enhance your experience by visiting attractions during less busy times. Our feature uses crowd level data to suggest optimal visiting times, helping you avoid long lines and packed spots 👫🚶‍♂🚶‍♀",
   },
   {
-    title: 'Technology using augment reality',
+    title: 'Core Constraint Handling',
     icon: '/tech.svg',
     variant: 'green',
     description:
-      'Technology uses augmented reality as a guide to your hiking trail in the forest to the top of the mountain. Already supported by the latest technology without an internet connection',
+      'Effortlessly incorporate essential details into your itinerary. Our system accounts for basic constraints like opening hours and estimated visit durations, providing a seamless planning experience ⏰✅',
   },
   {
-    title: 'Many new locations every month',
+    title: 'Basic Digital Pheromone Implementation',
     icon: '/location.svg',
     variant: 'orange',
     description:
-      'Lots of new locations every month, because we have a worldwide community of climbers who share their best experiences with climbing',
+      'Navigate like a pro with our innovative path optimization , which ensures you follow the most efficient routes, making your travel smooth and enjoyable 🗺✨',
   },
 ];
 

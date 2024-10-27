@@ -21,10 +21,10 @@
 ## 📋 <a name="table">Table of Contents</a>
 
 1. 🤖 [Introduction](#introduction)
-2. ⚙️ [Tech Stack](#tech-stack)
+2. ⚙ [Tech Stack](#tech-stack)
 3. 🔋 [Features](#features)
 4. 🤸 [Quick Start](#quick-start)
-5. 🕸️ [Snippets](#snippets)
+5. 🕸 [Snippets](#snippets)
 6. 🔗 [Links](#links)
 7. 🚀 [More](#more)
 
@@ -44,24 +44,24 @@ If you're getting started and need assistance or face any bugs, join our active 
 
 <a href="https://discord.com/invite/n6EdbFJ" target="_blank"><img src="https://github.com/sujatagunale/EasyRead/assets/151519281/618f4872-1e10-42da-8213-1d69e486d02e" /></a>
 
-## <a name="tech-stack">⚙️ Tech Stack</a>
+## <a name="tech-stack">⚙ Tech Stack</a>
 
 - Next.js
 - Tailwind CSS
 
 ## <a name="features">🔋 Features</a>
 
-👉 **Appealing Hero Section**: Visually striking hero section that captures attention and sets the tone for the website
+👉 *Appealing Hero Section*: Visually striking hero section that captures attention and sets the tone for the website
 
-👉 **Camp Exploration Section**: Showcase various camps in a dedicated section, allowing users to explore different options.
+👉 *Camp Exploration Section*: Showcase various camps in a dedicated section, allowing users to explore different options.
 
-👉 **Engaging Travel Guide Section**: A compelling travel guide section with informative content and captivating visuals.
+👉 *Engaging Travel Guide Section*: A compelling travel guide section with informative content and captivating visuals.
 
-👉 **Feature-Rich Section**: A complex and feature-rich section offering advanced functionalities or in-depth information.
+👉 *Feature-Rich Section*: A complex and feature-rich section offering advanced functionalities or in-depth information.
 
-👉 **Call to Action for Mobile Apps**: A call-to-action section encouraging users to explore the mobile app version, complete with download links.
+👉 *Call to Action for Mobile Apps*: A call-to-action section encouraging users to explore the mobile app version, complete with download links.
 
-👉 **Footer**: Comprehensive footer section containing site and social media links for easy navigation and connectivity.
+👉 *Footer*: Comprehensive footer section containing site and social media links for easy navigation and connectivity.
 
 and many more, including code architecture and reusability 
 
@@ -69,7 +69,7 @@ and many more, including code architecture and reusability
 
 Follow these steps to set up the project locally on your machine.
 
-**Prerequisites**
+*Prerequisites*
 
 Make sure you have the following installed on your machine:
 
@@ -77,35 +77,35 @@ Make sure you have the following installed on your machine:
 - [Node.js](https://nodejs.org/en)
 - [npm](https://www.npmjs.com/) (Node Package Manager)
 
-**Cloning the Repository**
+*Cloning the Repository*
 
-```bash
+bash
 git clone https://github.com/adrianhajdin/travel_ui_ux.git
 cd travel_ui_ux
-```
 
-**Installation**
+
+*Installation*
 
 Install the project dependencies using npm:
 
-```bash
+bash
 npm install
-```
 
-**Running the Project**
 
-```bash
+*Running the Project*
+
+bash
 npm run dev
-```
+
 
 Open [http://localhost:3000](http://localhost:3000) in your browser to view the project.
 
-## <a name="snippets">🕸️ Snippets</a>
+## <a name="snippets">🕸 Snippets</a>
 
 <details>
 <summary><code>constants.index.ts</code></summary>
 
-```typescript
+typescript
 // NAVIGATION
 export const NAV_LINKS = [
   { href: '/', key: 'home', label: 'Home' },
@@ -126,32 +126,32 @@ export const PEOPLE_URL = [
 // FEATURES SECTION
 export const FEATURES = [
   {
-    title: 'Real maps can be offline',
+    title: 'Basic Route Optimization',
     icon: '/map.svg',
     variant: 'green',
     description:
-      'We provide a solution for you to be able to use our application when climbing, yes offline maps you can use at any time there is no signal at the location',
+      'Maximize your travel time by planning efficient routes. Our system calculates the best paths based on distances between attractions and their opening hours, ensuring you spend more time exploring and less time traveling.📍🕒',
   },
   {
-    title: 'Set an adventure schedule',
+    title: 'Simple Crowd Consideration',
     icon: '/calendar.svg',
     variant: 'green',
     description:
-      "Schedule an adventure with friends. On holidays, there are many interesting offers from Hilink. That way, there's no more discussion",
+      "Enhance your experience by visiting attractions during less busy times. Our feature uses crowd level data to suggest optimal visiting times, helping you avoid long lines and packed spots 👫🚶‍♂🚶‍♀",
   },
   {
-    title: 'Technology using augment reality',
+    title: 'Core Constraint Handling',
     icon: '/tech.svg',
     variant: 'green',
     description:
-      'Technology uses augmented reality as a guide to your hiking trail in the forest to the top of the mountain. Already supported by the latest technology without an internet connection',
+      'Effortlessly incorporate essential details into your itinerary. Our system accounts for basic constraints like opening hours and estimated visit durations, providing a seamless planning experience ⏰✅',
   },
   {
-    title: 'Many new locations every month',
+    title: 'Basic Digital Pheromone Implementation',
     icon: '/location.svg',
     variant: 'orange',
     description:
-      'Lots of new locations every month, because we have a worldwide community of climbers who share their best experiences with climbing',
+      'Navigate like a pro with our innovative path optimization. Inspired by Ant Colony Optimization principles, this feature ensures you follow the most efficient routes, making your travel smooth and enjoyable.',
   },
 ];
 
@@ -192,14 +192,14 @@ export const SOCIALS = {
     '/wordpress.svg',
   ],
 };
-```
+
 
 </details>
 
 <details>
 <summary><code>globals.css</code></summary>
 
-```typescript
+typescript
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap');
 
 @tailwind base;
@@ -357,14 +357,14 @@ body {
   -ms-overflow-style: none; /* IE and Edge */
   scrollbar-width: none; /* Firefox */
 }
-```
+
 
 </details>
 
 <details>
 <summary><code>tailwind.config.ts</code></summary>
 
-```typescript
+typescript
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   content: [
@@ -418,7 +418,7 @@ module.exports = {
   },
   plugins: [],
 };
-```
+
 
 </details>
 
@@ -428,7 +428,7 @@ Assets used in the project are here [here](https://drive.google.com/file/d/10bwd
 
 ## <a name="more">🚀 More</a>
 
-**Advance your skills with Next.js 14 Pro Course**
+*Advance your skills with Next.js 14 Pro Course*
 
 Enjoyed creating this project? Dive deeper into our PRO courses for a richer learning adventure. They're packed with detailed explanations, cool features, and exercises to boost your skills. Give it a go!
 
@@ -439,7 +439,7 @@ Enjoyed creating this project? Dive deeper into our PRO courses for a richer lea
 <br />
 <br />
 
-**Accelerate your professional journey with the Expert Training program**
+*Accelerate your professional journey with the Expert Training program*
 
 And if you're hungry for more than just a course and want to understand how we learn and tackle tech challenges, hop into our personalized masterclass. We cover best practices, different web skills, and offer mentorship to boost your confidence. Let's learn and grow together!
 
