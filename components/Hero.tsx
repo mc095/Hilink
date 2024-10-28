@@ -16,12 +16,12 @@ const Hero = () => {
         />
         <h1 className="bold-52 lg:bold-88"> 🏞 🌉 🌆 🌄 🏟 Turigo & Hilink Helper ✈ 🚂 🚢 🚗 🛵</h1>
         <p className="regular-16 mt-6 text-gray-30 xl:max-w-[520px]">
-          We want to be on each of your journeys seeking the satisfaction of seeing the incorruptible beauty of nature. We can help you on an adventure around the world in just one app, made by students of <b>Sri Vasavi Engineering college</b>, CSE Undergrads.
+        Embark on your journey with us, where the thrill of exploring nature's untouched beauty awaits. Our all-in-one travel app, crafted by passionate CSE undergraduates from <b>Sri Vasavi Engineering College</b>, is here to transform your adventures around the globe into unforgettable experiences.
         </p>
 
         <div className="my-11 flex flex-wrap gap-5">
           <div className="flex items-center gap-2">
-            {Array(5).fill(1).map((_, index) => (
+            {Array(4).fill(1).map((_, index) => (
               <Image 
                 src="/star.svg"
                 key={index}
@@ -31,11 +31,6 @@ const Hero = () => {
               />
             ))}
           </div>
-
-          <p className="bold-16 lg:bold-20 text-blue-70">
-            198k
-            <span className="regular-16 lg:regular-20 ml-1">Excellent Reviews</span>
-          </p>
         </div>
       </div>
 
